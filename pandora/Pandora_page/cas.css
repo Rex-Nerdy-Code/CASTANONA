@@ -1,0 +1,176 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+
+
+@media(min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+}
+
+#showcase {
+    background-image: url(images/background.jpg);
+    color: darkslategray;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+#showcase::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    
+
+
+}
+
+#news-letter {
+    background-color: dimgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ads {
+    background-color: #232353;
+    color: white;
+}
+
+#learn {
+    background-image: url(images/top.jpg);
+    color: darkslategray;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+#learn::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.7);
+    z-index: -1;
+
+}
+#learn1 {
+    background-image: url(images/top.jpg);
+    color: white;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+#learn1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+
+}
+
+#instructors {
+    background-image: url(images/top.jpg);
+    color: darkslategray;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+#instructors::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(47, 79, 79, 0.7);
+    z-index: -1;
+
+}
+#contact {
+    background-color: rgb(47, 79, 79);
+    color: white;
+}
+
+#item {
+    background-color: darkslategray;
+}
+
+#questions {
+    background-color: darkslategray;
+    color: black;
+}
+
+#quiz {
+    background-color: #232353;
+    color: white;
+}
+
+#item {
+    background-color: darkslategray;
+}
+
+#footer {
+    background-color: darkslategray;
+}
+#features{
+    background-image: url(images/panback.jpg);
+    color: white;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+#features::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}  
+
+.navbar {
+    background-color: yellowgreen;
+    color: tomato;
+
+}
+
+.iconbox {
+    width: 54px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 172, 6);
+    color: #232353;
+    font-size: 32px;
+    border-radius: 100px;
+    flex: none;
+}
